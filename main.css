@@ -1,0 +1,64 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #90ee90;
+}
+
+#cabecalho .nav  .nav-link.active {
+    background-color: #fff;
+    color: #e141e1;
+}
+
+#cabecalho .nav  .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-saude .nav-link.active:hover {
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: #90ee90;
+}
+
+.carousel-item {
+    height: 36em;
+}
+.section-title { 
+    font-family: Pacifico, cursive;
+}
+
+#sobre-laboratorio {
+    background-color: #90ee90;
+}
+
+.text-colored {
+    color: #e141c6;
+}
+
+.nav-saude .nav-link.active, 
+#fale-conosco button {
+    background-color: #40f081;
+    color: #fff;
+}
+
+.nav-saude .nav-link:hover {
+    color: #90ee90;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+

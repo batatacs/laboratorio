@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <i class="bi bi-heart-pulse"></i>
+                Nome do Laboratorio</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collpase justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-laboratorio" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Laboratorio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#exame" class="nav-link" >
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Exames
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#saude" class="nav-link" >
+                            <i class="bi bi-card-text me-1"></i>
+                            Informações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link" >
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-laboratorio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <video class="w-100" autoplay loop muted>
+                            <source src="imagens/dna.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <video class="w-100" autoplay loop muted>
+                            <source src="imagens/hemoglobina.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <video class="w-100" autoplay loop muted>
+                            <source src="imagens/corona.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/laboratorio.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Laboratorio</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse labore exercitationem, repellendus sequi similique sint, laborum voluptatibus officiis minus possimus! Enim, recusandae quos! Explicabo quisquam fugit rerum maiores vero?
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam provident ipsa reprehenderit voluptatum fugiat dignissimos, atque corporis aut ullam modi, assumenda natus repellendus ipsam soluta nulla accusantium itaque? Placeat!
+                            </p>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="exame" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span class="text-colored">Exames</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagens/examesrotina.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Exames de Rotina</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum libero iure quod nobis. Veniam explicabo modi harum pariatur aut sequi totam non rerum rem perferendis accusamus mollitia, fugit ducimus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/exameperiodico.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Exames Periodicos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum libero iure quod nobis. Veniam explicabo modi harum pariatur aut sequi totam non rerum rem perferendis accusamus mollitia, fugit ducimus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/gestante.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Sexagem fetal</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum libero iure quod nobis. Veniam explicabo modi harum pariatur aut sequi totam non rerum rem perferendis accusamus mollitia, fugit ducimus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="saude" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Infor<span class="text-colored">mações</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#convenios" class="fw-bold text-start nav-link text-colored active">Convenios</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#coleta" class="fw-bold text-start nav-link text-colored ">Coletas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nossos-principios" class="fw-bold text-start nav-link text-colored ">Nossos Principios</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#certificacoes" class="fw-bold text-start nav-link text-colored ">Certificações</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="convenios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-unimed.png" alt="Unimed">
+                                        <h5 class="text-colored fw-bold mt-2">Unimed</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-portoseguro.png" alt="Porto Seguro">
+                                        <h5 class="text-colored fw-bold mt-2">Porto Seguro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-bradescosaude.png" alt="Bradesco">
+                                        <h5 class="text-colored fw-bold mt-2">Bradesco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-postalsaude.png" alt="postal saude">
+                                        <h5 class="text-colored fw-bold mt-2">Postal Saúde</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-amil.png" alt="Amil">
+                                        <h5 class="text-colored fw-bold mt-2">Amil</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/convenios/convenio-sulamerica.png" alt="SulAmerica">
+                                        <h5 class="text-colored fw-bold mt-2">SulAmérica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="coleta">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/coleta/coleta.jpg" alt="Coleta domiciliar">
+                                        <h5 class="text-colored fw-bold mt-2">Coleta Domiciliar</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100 h-50" src="imagens/coleta/coleta2.jpg" alt="coleta">
+                                        <h5 class="text-colored fw-bold mt-2">Coleta no Laboratorio</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nossos-principios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/principios/principios_1.jpg" alt="Missão">
+                                        <h5 class="text-colored fw-bold mt-2">Missão</h5>
+                                        <p>
+                                            Realizar com ética, segurança e excelência os exames laboratoriais, contribuindo com a qualidade no atendimento e diagnóstico médico. Garantir a satisfação do cliente no atendimento e nos serviços prestados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/principios/principios_2.jpg" alt="Visão">
+                                        <h5 class="text-colored fw-bold mt-2">Visão</h5>
+                                        <p>
+                                            Ser referência no setor das análises clínicas por meio de inovações e investimentos em pesquisas. Ser reconhecido em excelência de atendimento, satisfação do cliente e de qualidade nos serviços prestados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/principios/principios_3.jpg" alt="Valores">
+                                        <h5 class="text-colored fw-bold mt-2">Valores</h5>
+                                        <p>
+                                            Valorização do atendimento ao cliente, ética profissional, segurança no trabalho, qualidade nas análises clínicas, sustentabilidade, transparência e inovação constante. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="certificacoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="imagens/certificados/certificado1.jpg" alt="certificado">
+                                        <h5 class="text-colored fw-bold mt-2">PNCQ</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100 h-50" src="imagens/certificados/controlab.png" alt="controlab">
+                                        <h5 class="text-colored fw-bold mt-2">Control lab</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Rede sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored "></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua teste exemplo n° 145, bairro - Sao Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
