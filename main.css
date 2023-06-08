@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #90ee90;
+    background-color: #ffeae6;
 }
 
 #cabecalho .nav  .nav-link.active {
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #90ee90;
+    background-color: #ffeae6;
 }
 
 .carousel-item {
@@ -30,7 +30,7 @@ body {
 }
 
 #sobre-laboratorio {
-    background-color: #90ee90;
+    background-color: #ffeae6;
 }
 
 .text-colored {
@@ -39,12 +39,12 @@ body {
 
 .nav-saude .nav-link.active, 
 #fale-conosco button {
-    background-color: #40f081;
+    background-color: #e141c6;
     color: #fff;
 }
 
 .nav-saude .nav-link:hover {
-    color: #90ee90;
+    color: #fff;
 }
 
 .social-links li {
@@ -57,8 +57,8 @@ body {
 }
 
 @media (max-width: 767px) {
-    .carousel-item img {
-        height: 280px;
+    .carousel-item {
+        height: 20em;
     }
 }
 
